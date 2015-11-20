@@ -20,7 +20,9 @@ NOTES REGARDING THE SOURCE CODE:
 The code currently accepts username password from an escaped JSON String that has been declared. 
 The cookie is taken as constant. It has been fetched from the data obtained using Charles Proxy. 
 For the purpose of simplicity, the method searchResults outputs single item name and its offer ID which can be used to specify which item and quantity to add to the cart. The search method can be modified to return a list of all the items and then the user can select the offer ID of whatever item he wishes to add to cart. 
-Validation of cart items is done using two methods. a) cartItemsCount method returns the total count of items in the cart. b) validateOfferIdInCart method returns the offer ID of the item in cart if there is only one item. If there are more than 1 items, It returns that “More number of items”. Also, if cart is empty, it will return “No items in cart”.                       
+Validation of cart items is done using two methods. 
+     a) cartItemsCount method returns the total count of items in the cart
+     b) validateOfferIdInCart method returns the offer ID of the item in cart if there is only one item. If there are more        than 1 items, It returns that “More number of items”. Also, if cart is empty, it will return “No items in cart”.                       
 
 ENHANCEMENTS POSSIBLE:
 
