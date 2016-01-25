@@ -1,8 +1,7 @@
 # Walmart Automation Client
 
-###READ ME:
-
 ###INSTRUCTIONS TO RUN THE PROGRAM
+---
 
 You can clone the project using this command or download the zip file :
 
@@ -29,6 +28,7 @@ There are two ways to run the program :
 
 
 ### NOTES REGARDING THE SOURCE CODE:
+---
 
 The code currently accepts a username and password from an escaped JSON String that has been declared. 
 `The cookie is taken as constant`. It has been fetched from the data obtained using `Charles Proxy`. 
@@ -40,6 +40,7 @@ The validation of cart items is done using two methods.
   2.validateOfferIdInCart method returns the offer ID of the item in cart if there is only one item. If there are more        than 1 items, It returns that `More number of items`. Also, if cart is empty, it will return `No items in cart`.                      
 
 ### POSSIBLE ENHANCEMENTS :
+---
 
 > Can be included in a continuous integration pipeline so that API can be test in an automatic fashion and any harmful change can be tracked using the flow.
 
